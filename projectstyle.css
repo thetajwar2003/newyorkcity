@@ -1,0 +1,225 @@
+@font-face {font-family:"Remachine Script Personal Use";src: url(remachine.ttf);}
+body {
+	background-color: skyblue;
+	color: orange;
+	}
+h1 {
+	text-align: center;
+	font-family: Comic Sans SM;
+	font-size: 300%;
+	color: red;
+	}
+	
+p {
+	text-align: left;
+	font-family: Comic Sans SM;
+	font-size: 300%;
+	color: purple;
+	}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: orange;
+    clear: left;
+    text-align: center;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}  
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid lightcoral;
+    padding: 1em;
+    overflow: hidden;
+}
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+li.one {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: pink;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li.dropdown2 {
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content2 a:hover {background-color: white}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+li.dropdown3 {
+    display: inline-block;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content3 a:hover {background-color: white}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+
+li.dropdown4 {
+    display: inline-block;
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content4 a:hover {background-color: white}
+
+.dropdown4:hover .dropdown-content4 {
+    display: block;
+}
+
+
+li.dropdown5 {
+    display: inline-block;
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content5 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content5 a:hover {background-color: white}
+
+.dropdown5:hover .dropdown-content5 {
+    display: block;
+}
+div.an {
+			width: 500px;
+			height: 500px;
+			position: relative;
+			-webkit-animation-name: example;
+			-webkit-animation-duration: 5s;
+			animation-name: example;
+			animation-duration: 5s;
+			animation-delay: 1s;
+		}
+		@keyframes example {
+			0% {left:0px; top:0px;}
+			25% {left:200px; top: 0px;}
+			50% {left:400px; top: 0px;}
+			75% {left:200px; top: 0px;}
+			100% {left: 0px; top: 0px;}
+		}
